@@ -1,0 +1,129 @@
+html, body{
+    margin: 0;
+}
+header{
+    background-color: black;
+    color: blanchedalmond;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo{
+    width:35px;
+    position: absolute;
+    top: 10px; 
+   margin-left:5% ;
+  
+
+}
+#menu{
+    
+    float: center
+   margin-left:5%;
+list-style:none;
+margin-top:0px;
+}
+li{
+    float: left;
+    padding: 20 10 20 10;
+
+}
+li:hover{
+    background-color: blue
+}
+#imagem_fundo{
+    background:url("img/fundo1.jpg") ;
+    height:100% ;
+    text-align: center;
+    background-size: cover;
+}
+#titulo1{
+    color: black;
+    padding-top:20%; 
+    font-size:70px ;
+    line-height:0.6 ;
+}
+#subtitulo{
+    color: black;
+    padding-left:20%; 
+    padding-right: 20%;
+}
+#açao{
+    color: black;
+    border:1px black solid ;
+    padding: 9px 9px 9px 9px;
+    transform-style: preserve-3d; 
+} 
+.icone{
+    width: 70px;
+}
+#projeto {
+    background-color: rgb(235, 234, 233);
+    padding: 20px;
+    float: left;
+}
+.alinhamento{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+.justificado{
+    text-align: justify;
+}
+.centralizado{
+    text-align: center;
+    font-size: 20;
+}
+.quadros{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 15%;
+    text-align: justify;
+    background-color: rgb(235, 234, 233);
+    font-size: 18;
+   
+
+}
+#fotoum{
+    text-align:center;
+    font-size: 20;
+    margin-bottom: 0px;
+}
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+    align: center;
+}
+a:hover{
+    background-color: tomato;
+}
+.quadros:hover{
+    background-color: rgb(101, 195, 233);
+}
+.parte2{
+    float: left;
+    padding: 0 1%;
+    padding-top: 0px;
+    padding-right: 1%;
+    padding-bottom: 0px;
+    padding-left: 1%;
+    position: relative;
+    width: 29%;
+    text-align: justify;
+    background-color: rgb(235, 234, 233);
+    font-size: 18;
+}
+.parte2 {
+    overflow:hidden;
+    }
+    .parte2 img{
+    transition: all 0.2s;
+    }
+    .parte2:hover img {
+    transform: scale(1.3)
+    }
+  
